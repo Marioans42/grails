@@ -98,7 +98,7 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: none
+            dbCreate: create
             url: jdbc:postgresql://localhost:5432/grails
     test:
         dataSource:
